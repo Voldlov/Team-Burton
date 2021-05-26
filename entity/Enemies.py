@@ -1,15 +1,7 @@
-class Monster:
-    def __int__(self):
-        self.health =
-        self.max_health =
-        self.attack =
-        self.name =
-        self.cordinates = (-2, 0)
-        self.velocity =
-        self.rect.x =
-        self.rect.y =
+from entity.Entity import Entity
 
 
+class Enemies(Entity):
     def getHealth(self):
         return self.health
 

@@ -1,12 +1,8 @@
-class Hero:
-    def __init__(self, Hhealth, Hattack, Hluck, Hranged, Hdefence, Hmagic, Hname):
-        self.health = Hhealth
-        self.attack = Hattack
-        self.luck = Hluck
-        self.ranged = Hranged
-        self.defence = Hdefence
-        self.magic = Hmagic
-        self.name = Hname
+from entity.Entity import Entity
+
+
+class Hero(Entity):
+    def
 
 
     def getHealth(self):
