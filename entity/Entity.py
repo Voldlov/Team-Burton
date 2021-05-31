@@ -7,6 +7,22 @@ class Entity:
         self.speed, self.speed_max = speed_max
         self.defense, self.defense_max = defense_max
 
+    def death(self, health):
+        #si la vie est à 0 retourner le statue 0
+        if health == 0 :
+            status = 1
+        else :
+            status = 0
+        return status
+
+    def fight(self, p1, p2):
+        #se lance pour les combats
+        status = 1
+        while status == 1:
+            attack()
+            death(p1.health)
+            death(p2.health)
+
     def attack(self, health_def, defense_def, attack_atk):
         #attaque classique
         #défense
