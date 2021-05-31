@@ -1,6 +1,6 @@
 from Player import Player
 from entity import Enemies
-
+import random
 
 class Game:
 
@@ -9,12 +9,11 @@ class Game:
 
 	def map(self):
 		#création de la map c'est une image
-		maping = "truc.jpg"
-		return maping
+		self.maping = "truc.jpg"
 
 	def treasurr(self):
 		#position du trésor c'est un emplacement dans un tableau
-		location_treasur = [0,0]
+		location_treasur = [random.randint(1, 10), random.radint(1, 10)]
 		return location_treasur
 
 

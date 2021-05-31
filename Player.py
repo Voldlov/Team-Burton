@@ -1,13 +1,13 @@
 class Player:
     def __int__(self):
         self.cordinates = (0,0)
-        self.name =
+        self.name = "player"
         self.health = 100
         self.max_health = 100
         self.attack = 10
-        self.defence =
-        self.luck =
-        self.velocity = 6
+        self.defence = 10
+        self.luck = 10
+        self.velocity = 10
 
     def move_right(self):
         self.rect.x += self.velocity
