@@ -14,7 +14,7 @@ Jeu donjon et rpg solo ou multi, adapté de nouvelle de Ceolcyn
 
 ### Les liens importants
 
-[Trello](https://trello.com/b/f9yrZC1a/team-burton)
-[Youtube](https://www.youtube.com/channel/UC8rv6HyQJmfPdnSm0M5SG6w)
+- [Trello](https://trello.com/b/f9yrZC1a/team-burton)
+- [Youtube](https://www.youtube.com/channel/UC8rv6HyQJmfPdnSm0M5SG6w)
 
 
