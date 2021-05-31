@@ -1,4 +1,4 @@
-## Team Burton Project
+## Ceolcyn
 
 Jeu donjon et rpg solo ou multi, adapté de nouvelle de Ceolcyn
 
