@@ -6,7 +6,6 @@ class Game:
 
 	def __init__(self):
 		#affichage
-		#choix du mode de jeu
 
 	def map(self):
 		#création de la map c'est une image
