@@ -11,10 +11,9 @@ class Game:
 		#création de la map c'est une image
 		self.maping = "truc.jpg"
 
-	def treasurr(self):
+	def treasur(self):
 		#position du trésor c'est un emplacement dans un tableau
-		location_treasur = [random.randint(1, 10), random.radint(1, 10)]
-		return location_treasur
+		self.location_treasur = [random.randint(1, 10), random.radint(1, 10)]
 
 
 
@@ -32,5 +31,9 @@ class Game:
 			#ennemies
 			#piège
 			#trésor
+	def creatRoom(self, position):
+		self.room = [position[0], position[1], 1]
 
+	def shearchRoom(self, position):
+		#trouver une salle déjà créé
 
