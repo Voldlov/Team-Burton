@@ -1,5 +1,10 @@
+from mysql import connector
+
+
 class Player:
     def __int__(self, name):
+        #ouvrir la connection
+        #cn = connector.connect(user='', password='', host='localhost', database='')
         self.name = name
         result = self.verify(name)
         if result :
@@ -15,6 +20,12 @@ class Player:
         return 0
 
     def recovery(self):
+        #la requête
+        q = 'SELECT *** FROM ***'
+        #créer un curseur
+        c = cn.cursor()
+        #envoyer la requête et recevoir le résultat
+        return c.execute(q)
         #récupération des information dans la table
 
     def passWord(self):
@@ -22,3 +33,7 @@ class Player:
 
     def save(self):
         #sauvegarde des informations
+
+    def close(self):
+        #fermer la connexion avec la base de donnée
+        cn.close()
