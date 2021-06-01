@@ -19,9 +19,9 @@ class Entity:
         #se lance pour les combats
         status = 1
         while status == 1:
-            attack()
-            death(p1.health)
-            death(p2.health)
+            self.attack()
+            self.death(p1.health)
+            self.death(p2.health)
 
     def attack(self, health_def, defense_def, attack_atk):
         #attaque classique
