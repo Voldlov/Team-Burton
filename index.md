@@ -59,8 +59,8 @@ Vous devez tout d'abord télécharger le projet :
 
 Vous devez executer le main.py pour pouvoir lancer le jeu :
 
-```bash
-& C:/Python39/python.exe d:/Documents/Team-Burton/main.py
+```cmd
+> & C:/Python39/python.exe C:/yourdirectory/Team-Burton/main.py
 ```
 
 #### Gameplay
@@ -68,6 +68,48 @@ Vous devez executer le main.py pour pouvoir lancer le jeu :
 #### Multijoueur
 
 Le multijoueur ne fonctionne qu'en local pour le moment.
+
+Avant de lancer une partie en multijoueur, il faut déjà allumer le serveur. Pour cela, executez le script `Serveur.py` soit sur votre machine soit sur une autre machine qui fera office de serveur:
+```cmd
+> & C:/Python39/python.exe C:/yourdirectory/Team-Burton/multijoueur/Serveur.py
+```
+
+Une fois executé, le serveur se lance :
+```bash
+Serveur prêt (port 50026 ) en attente de clients...
+```
+
+Sur cette même machine ou une autre machine en local, executez le script `Client.py` :
+```cmd
+> & C:/Python39/python.exe C:/yourdirectory/Team-Burton/multijoueur/Client.py
+Adresse IP du serveur ? 127.0.0.1 // ou localhost
+Numéro du port ? 50026 // vous pouvez laisser vide par défaut
+Vous êtes connecté au serveur.
+
+Entrer un pseudo : John Doe
+
+Attente des autres clients...
+```
+
+Vous voyez maintenant sur votre serveur que le socket du client à bien été récupéré :
+```bash
+Connexion du client ('127.0.0.1', 64170) Thread-1 <socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50026), raddr=('127.0.0.1', 64170)>
+Pseudo du client ('127.0.0.1', 64170) > John Doe
+```
+
+### Status du projet
+
+
+
+### Roadmap
+
+- Intégration avec Qt Creator ;
+- Migration du multijoeur en serveur public ;
+- Déploiment avec Docker.
+
+### License
+
+[GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
 
 ### Les liens importants
 
