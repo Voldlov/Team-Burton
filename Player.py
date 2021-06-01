@@ -69,3 +69,7 @@ class Player:
     def close(self):
         #fermer la connexion avec la base de donnée
         cn.close()
+
+    def cut(self):
+        #dépend des chaînes retournées par la bdd
+        #découpe le résultat et le range
