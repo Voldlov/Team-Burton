@@ -27,7 +27,15 @@ Le nom de l'équipe est un jeu de mot avec le réalisateur **Tim Burton**.
 
 #### Développement du jeu
 
+Le jeu est développé en Python sous forme de commande en ligne.
+
 #### Base de donnée
+
+La base de donnée est développée avec MySQL.
+
+#### Multijoueur
+
+La partie multijoueur à été développée en Python avec des *sockets*.
 
 ### Scénario 
 
@@ -39,9 +47,29 @@ L'ennemis héréditaire de l'empire n'étant autre que la confédération de Pre
             
 Ce fut alors comme cela que commença l'une des plus belles balades encore conté par les bardes. Où les trois plus grande puissances ce sont livré à une course autour d'un mythe. Sûrement une des course les plus épiques qu'a connu notre continent.
 
+### Visuels
+
+### Installation
+
+Vous devez tout d'abord télécharger le projet :
+- Soit directement sur le site en cliquant sur le bouton de téléchargement (Zip ou Tar.gz) ;
+- Soit en utilisant Git : `git clone git@github.com:Voldlov/Team-Burton.git` .
+
+### Utilisation
+
+Vous devez executer le main.py pour pouvoir lancer le jeu :
+
+```bash
+& C:/Python39/python.exe d:/Documents/Team-Burton/main.py
+```
+
+#### Gameplay
+
+#### Multijoueur
+
+Le multijoueur ne fonctionne qu'en local pour le moment.
+
 ### Les liens importants
 
 - [Trello](https://trello.com/b/f9yrZC1a/team-burton)
 - [Youtube](https://www.youtube.com/channel/UC8rv6HyQJmfPdnSm0M5SG6w)
-
-
