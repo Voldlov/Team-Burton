@@ -75,6 +75,10 @@ Vous devez executer le main.py pour pouvoir lancer le jeu :
 
 **Section sur le gameplay**
 
+Le gameplay a été le plus épuré possible. Au lancement du jeu, la map est généré (une image) et de façon aléatoire, un trésor caché, que doivent retrouver les joueurs. Des pièges, des PNJ et d'autres joueurs peuvent leur bloquer la route.
+
+Il y a la vie (tombé à 0, c'est la mort), mais aussi des capacités pouvant être utilisées et des items pour avoir un avantage. Une fois le trésor trouvé, les joueurs doivent retourner à leur emplacement d'origine. 
+
 #### Multijoueur
 
 Le multijoueur ne fonctionne qu'en local pour le moment.
