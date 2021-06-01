@@ -1,7 +1,8 @@
 
 class Room:
 
-    def __init__(self, location_x, location_y):
+    def __init__(self, location_x, location_y, difficult):
+        self.room = [location_x, location_y, difficult]
 
 
     def ennemies(self):

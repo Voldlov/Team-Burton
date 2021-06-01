@@ -22,18 +22,3 @@ class Game:
 #il y a aussi une méthode pour voir si la pièce n'a jamais été générée ou non
 
 
-	def room(self, difficulty, room):
-		#Ce qui se trouve dans le pièce, c'est aléatoire avec un % de chance et de difficulté.
-		if room[2] == 1 :
-			#récupérer
-		else :
-			#créer
-			#ennemies
-			#piège
-			#trésor
-	def creatRoom(self, position):
-		self.room = [position[0], position[1], 1]
-
-	def shearchRoom(self, position):
-		#trouver une salle déjà créé
-
