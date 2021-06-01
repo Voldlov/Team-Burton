@@ -3,13 +3,13 @@
 ![logo](Ceolcyn.png)
 
 
-Jeu donjon et rpg solo ou multi, adapté de nouvelle de Ceolcyn
+Jeu donjon et rpg solo ou multi, adapté de nouvelles de Ceolcyn.
 
 ### L'équipe
 
-- Lucas GAIO DOS SANTOS : Chef de projet, développeur SQL et Python
-- Esther LEMBEMOKO : Membre du projet, développeur Python
-- Nicolas BARBARISI : Membre du projet, développeur Python
+- Lucas GAIO DOS SANTOS : Chef de projet, développeur SQL et Python ;
+- Esther LEMBEMOKO : Membre du projet, développeur Python ;
+- Nicolas BARBARISI : Membre du projet, développeur Python.
 
 #### Nom de l'équipe
 
@@ -17,11 +17,11 @@ Le nom de l'équipe est un jeu de mot avec le réalisateur **Tim Burton**.
 
 #### Attibution des rôles
 
-- Développement des classes : Esther
-- Mise en place de la base de donnée : Lucas
-- Mise en place du multijoueur : Nicolas
-- Développement de l'interface graphique : Toute l'équipe
-- Rédaction du cahier des charges : Nicolas et Esther
+- Développement des classes : Esther ;
+- Mise en place de la base de donnée : Lucas ;
+- Mise en place du multijoueur : Nicolas ;
+- Développement de l'interface graphique : Toute l'équipe ;
+- Rédaction du cahier des charges : Nicolas et Esther.
 
 ### Technologies utilisées
 
@@ -49,11 +49,16 @@ Ce fut alors comme cela que commença l'une des plus belles balades encore cont�
 
 ### Visuels
 
+**Visuels**
+
 ### Installation
 
 Vous devez tout d'abord télécharger le projet :
 - Soit directement sur le site en cliquant sur le bouton de téléchargement (Zip ou Tar.gz) ;
-- Soit en utilisant Git : `git clone git@github.com:Voldlov/Team-Burton.git` .
+- Soit en utilisant Git :
+```bash
+git clone git@github.com:Voldlov/Team-Burton.git
+```
 
 ### Utilisation
 
@@ -64,6 +69,8 @@ Vous devez executer le main.py pour pouvoir lancer le jeu :
 ```
 
 #### Gameplay
+
+**Section sur le gameplay**
 
 #### Multijoueur
 
@@ -97,9 +104,21 @@ Connexion du client ('127.0.0.1', 64170) Thread-1 <socket.socket fd=392, family=
 Pseudo du client ('127.0.0.1', 64170) > John Doe
 ```
 
+Lorsqu'au minimum 2 joueurs sont connectés, le jeu se lance :
+```bash
+Attente des autres clients...
+
+La partie va commencer !
+```
+
 ### Status du projet
 
+Le projet est opérationnel, cependant la plupart des classes et des fichiers créés ne sont pas implémentés. Il ne s'agit ici que d'une démo de ce qui peut être fait.
 
+### Problèmes rencontrés
+
+- L'interface n'est pas utilisable ;
+- Le multijoueur n'est pas accessible en public, uniquement en local.
 
 ### Roadmap
 
